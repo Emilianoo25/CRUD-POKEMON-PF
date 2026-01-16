@@ -1,0 +1,67 @@
+{
+  "pokemon": [
+    {
+      "id": 1,
+      "nombre": "bulbasaur",
+      "tipo": "planta",
+      "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
+      "descripcion": "Pokemon semilla"
+    },
+    {
+      "id": 2,
+      "nombre": "ivysaur",
+      "tipo": "planta",
+      "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png",
+      "descripcion": "Evolución de Bulbasaur"
+    },
+    {
+      "id": 3,
+      "nombre": "Torterra",
+      "tipo": "Planta",
+      "imagen": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/0/05/latest/20151017103720/Torterra.png/800px-Torterra.png",
+      "descripcion": "Pokemon Arbol"
+    },
+    {
+      "id": 4,
+      "nombre": "squirtle",
+      "tipo": "",
+      "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png",
+      "descripcion": ""
+    },
+    {
+      "id": 5,
+      "nombre": "wartortle",
+      "tipo": "",
+      "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/8.png",
+      "descripcion": ""
+    },
+    {
+      "id": 6,
+      "nombre": "blastoise",
+      "tipo": "",
+      "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png",
+      "descripcion": ""
+    },
+    {
+      "id": 7,
+      "nombre": "charmander",
+      "tipo": "",
+      "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png",
+      "descripcion": ""
+    },
+    {
+      "id": 8,
+      "nombre": "charmeleon",
+      "tipo": "",
+      "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png",
+      "descripcion": ""
+    },
+    {
+      "id": 9,
+      "nombre": "charizard",
+      "tipo": "",
+      "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png",
+      "descripcion": ""
+    }
+  ]
+}

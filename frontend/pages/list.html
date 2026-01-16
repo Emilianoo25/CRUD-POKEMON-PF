@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Lista Pokémon</title>
+  <style>
+    body{font-family:Arial,sans-serif;padding:20px;background:#f4f6fb}
+    h1{margin-bottom:12px}
+    .controls{display:flex;gap:8px;margin-bottom:12px}
+    .card-list{display:flex;flex-wrap:wrap;gap:12px}
+    .card{background:#fff;padding:12px;border-radius:8px;width:180px;text-align:center;box-shadow:0 1px 4px rgba(0,0,0,0.08)}
+    .card img{width:96px;height:96px}
+    .small{font-size:13px;color:#666;margin-top:6px}
+    input[type="search"]{padding:8px;border-radius:6px;border:1px solid #ddd; width:220px}
+    button{padding:8px 10px;border-radius:6px;border:0;background:#1976d2;color:#fff;cursor:pointer}
+    a{display:inline-block;margin-top:8px;color:#1976d2;text-decoration:none}
+  </style>
+</head>
+<body>
+  <h1>Pokémon</h1>
+  <div class="controls">
+    <input id="search" type="search" placeholder="Buscar por nombre o tipo">
+    <button id="btnSearch">Buscar</button>
+    <button id="btnReload">Recargar</button>
+  </div>
+  <div id="lista" class="card-list"></div>
+  <script src="../js/list.js"></script>
+</body>
+</html>

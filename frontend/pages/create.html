@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Crear Pokémon</title>
+  <style>
+    body{font-family:Arial;padding:20px;background:#f4f6fb}
+    form{background:#fff;padding:16px;border-radius:8px;max-width:520px}
+    input, textarea{width:100%;padding:8px;margin-bottom:8px;border:1px solid #ddd;border-radius:6px}
+    button{padding:10px 12px;border-radius:6px;border:0;background:#2e7d32;color:#fff}
+  </style>
+</head>
+<body>
+  <h1>Crear Pokémon</h1>
+  <form id="formCreate">
+    <input id="nombre" placeholder="Nombre">
+    <input id="tipo" placeholder="Tipo">
+    <input id="imagen" placeholder="URL imagen (opcional)">
+    <textarea id="descripcion" placeholder="Descripción (opcional)"></textarea>
+    <button type="submit">Crear</button>
+  </form>
+  <script src="../js/create.js"></script>
+</body>
+</html>
